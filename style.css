@@ -29,7 +29,7 @@ body{
     left: 50px;
     font-family: inherit;
     font-size: 40px;
-    color: rgb(244, 230, 253);
+    color: rgba(255, 255, 255, 0.9);
 }
 
 
@@ -37,9 +37,10 @@ body{
     display: table;
     position: absolute;
     top: 25px;
-    left: 500px;
+    left: 600px;
     font-family:inherit;
     text-decoration: inherit;
+    font-size: 20px;
 }
 
 .main-table li{
@@ -56,7 +57,7 @@ body{
     display: block;
     width: 100%;
     height: 550px;
-    background-image: url(jpg/PhotoFunia-1557077440.jpg);
+    background-image: url(jpg/PhotoFunia-1557077440.jpg) ;
     background-size: cover;
 }
 
@@ -71,4 +72,57 @@ body{
     font-family: inherit;
     font-size: 75px;
     font-style:normal;
+}
+
+.line1{
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 5px;
+    top: 550px;
+    background-color: rgb(33, 19, 19);
+}
+
+#history-block{
+    background-color: rgba(199, 229, 255, 0.67);
+    position: absolute;
+    display: block;
+    top: 555px;
+    height: 500px;;
+    width: 100%;
+}
+#history-block h2{
+    position: absolute;
+    display: block;
+    left: 50px;
+}
+/* декор ссылок*/
+a{
+    text-decoration: none;
+    color: aliceblue;
+}
+
+a {  
+  color: #00e;  
+}  
+a:visited {  
+  color: #551a8b;  
+}  
+a:hover {  
+  color: #06e;  
+}  
+a:focus {  
+  outline: thin dotted;  
+}  
+a:hover, a:active {  
+  outline: 0;  
+}  
+a, a:visited, a:active {  
+  text-decoration: none;  
+  color: #fff;  
+  -webkit-transition: all .3s ease-in-out;  
+}  
+a:hover, .glow {  
+  color: #ff0;  
+  text-shadow: 0 0 10px #ff0;  
 }
